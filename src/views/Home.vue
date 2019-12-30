@@ -18,6 +18,7 @@ export default {
     HelloWorld
   },
   asyncData({ store, route }) {
+    console.log('home', '预取')
     store.dispatch('fetchData')
   },
   computed: {

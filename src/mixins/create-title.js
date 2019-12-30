@@ -9,7 +9,6 @@ function getTitle(vm) {
 const clientMixinTitle = {
   mounted() {
     const title = getTitle(this);
-    console.log(title, 'title client')
     title && (document.title = title);
   }
 }
@@ -17,7 +16,6 @@ const clientMixinTitle = {
 const serveMixinTitle = {
   created() {
     const title = getTitle(this);
-    console.log(title, 'title serve')
     title && (this.$ssrContext.title = title);
   }
 }
