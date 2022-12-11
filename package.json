@@ -13,7 +13,7 @@
   "dependencies": {
     "core-js": "^3.4.3",
     "cross-env": "^6.0.3",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "lru-cache": "^5.1.1",
     "normalize.css": "^8.0.1",
     "vue": "^2.6.10",
